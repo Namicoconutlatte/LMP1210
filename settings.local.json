@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls:*)",
+      "WebFetch(domain:github.com)",
+      "Bash(python -c \"from tabpfn import TabPFNClassifier; from tabpfn.constants import ModelVersion; print\\(''''ModelVersion options:'''', list\\(ModelVersion\\)\\); help\\(TabPFNClassifier.__init__\\)\")",
+      "Bash(python:*)",
+      "Bash(python3:*)"
+    ]
+  }
+}
